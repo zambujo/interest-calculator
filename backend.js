@@ -21,7 +21,7 @@ function compute() {
         var endYear = new Date().getFullYear() + parseInt(years.value);
         // Output message
         var message = "If you deposit " + amount.value +
-        "with an interest rate of " + rate.value + "%," +
+        " with an interest rate of " + rate.value + "%," +
         "\<br />\ you will get " + interest +
         " of interest in " + endYear + ".";
 
